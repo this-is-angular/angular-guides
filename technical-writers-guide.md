@@ -17,10 +17,19 @@
 * Review & Re-write lots of times. 
 * Get rid of all the clutter.
 
-# Be Explicit, Be Clear
+# Avoid assumptions
 
 * Don’t assume that your readers know what you assume everybody knows.
 * Don't assume that they still remember what was once explained to them.
+
+Technical materials should shun words such as simply, obviously, and clearly in reference to the subject. 
+These words, among other dismissive terms, add no meaning to your writing. 
+Unfortunately, they do communicate that the topic should be easy, simple, or obvious.
+
+# Flow
+
+Consistently short, medium, or long sentences create monotony. 
+Add variety so that a piece doesn't become too choppy or too drawn-out.
 
 # The ending
 
