@@ -45,6 +45,11 @@ remark that has a sense of finality, or that's funny, or that adds an unexpected
 closing detail. 
 A good ending gives the reader a lift, and it lingers when the article is over.
 
+# Headlines
+Include self-interest into every headline. Self interest is a reliable way to
+make people care and as a result act on your message. Self-interest means that
+we make our headlines signal that there is something the reader wants.
+
 # Links
 
 * [The Complete Guide to Editing Your First Draft Like a Pro](https://medium.com/better-humans/the-complete-guide-to-editing-your-first-draft-like-a-pro-b38c4fd3c1c6)
