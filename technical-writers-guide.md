@@ -36,6 +36,20 @@ Add variety so that a piece doesn't become too choppy or too drawn-out.
 Passive: The article was written by me.
 Active: I wrote this article.
 
+# Summary
+
+* Short version of a text that only contains the main points.
+* The main aim of a summary is to sum up the main points.
+* An executive summary is at the beginning of a document.
+* A summary should also have a conclusion.
+
+# Conclusion
+
+* The end or finish of a chapter or text.
+* The purpose is to conclude the text smoothly.
+* Is at the end of a document.
+* Can include a summary of the main points.
+
 # The ending
 
 Next to the beginning this is the most important part. You should give almost as
