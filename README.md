@@ -17,8 +17,8 @@ will help us put our name out there as a source of quality guides for Angular
 development.
 
 ## Editors
-Our editors are Tim Descryver and Lars Gyrup Brink Nielsen. Reach out to them
-if you need help with your content or want to start contributing.
+Our editors are Tim Descryver and Lars Gyrup Brink Nielsen. Reach out to us if
+you need help with your content or want to start contributing.
 
 ## Style guide
 We don't yet have an official style guide. Use [freeCodeCamp's style guide](https://github.com/freeCodeCamp/freeCodeCamp/blob/master/docs/style-guide-for-guide-articles.md)
