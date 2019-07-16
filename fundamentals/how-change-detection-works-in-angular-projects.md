@@ -1,4 +1,4 @@
-# How does change detection work in Angular projects?
+# How change detection works in Angular projects
 
 ## Suggested topics
 - Dirty checking
