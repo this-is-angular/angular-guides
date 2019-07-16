@@ -7,4 +7,4 @@
 - `<ng-container>`
 - Template reference variables (`#`)
 - `<ng-template>`
-- Structural directive template syntactic sugar (*)
+- Structural directive template syntactic sugar (`*`)
