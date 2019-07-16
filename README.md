@@ -11,9 +11,10 @@ details. Your name will be mentioned on the guides you help author.
 
 ## Content
 A lot of suggestions for guides, topics and resources have already been added
-to this repository. Currently, we would like to focus on getting the basic
-fundamentals guides done first. This will help us put our name out there as a
-source of quality guides for Angular development.
+to this repository. Currently, we would like to focus on getting [the basic
+fundamentals guides](./fundamentals/angular-fundamentals.md) done first. This
+will help us put our name out there as a source of quality guides for Angular
+development.
 
 ## Editors
 Our editors are Tim Descryver and Lars Gyrup Brink Nielsen. Reach out to them
