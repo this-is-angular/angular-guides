@@ -13,3 +13,6 @@
 - Tree-shakable providers
   - Dependency injection tokens
   - Class-based services
+
+## Related topics
+- [Angular dependencies](./angular-dependencies.md)
