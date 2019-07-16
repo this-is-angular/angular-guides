@@ -6,7 +6,8 @@
 - [Test Doubles — Fakes, Mocks and Stubs. by Michal Lipski](https://blog.pragmatists.com/test-doubles-fakes-mocks-and-stubs-1a7491dfa3da)
 
 ## Suggested topics
--  Types of test doubles
+
+- Types of test doubles
   - Dummys
   - Fakes
   - Stubs
