@@ -20,3 +20,4 @@
 ## Related topics
 - [Angular dependencies](./angular-dependencies.md)
 - [Class-based services](./class-based-angular-services.md)
+- [Angular modules](./angular-modules.md)
