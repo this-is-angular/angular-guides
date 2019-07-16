@@ -7,7 +7,7 @@ Ghost-based website.
 ## License
 By contributing to these guides, you agree to give ownership of the content to
 In Depth Education, a for-profit organization. See [LICENSE](./LICENSE) for the
-details. Your name will be mentioned on the guides you help author.
+details. Your name will be mentioned in the guides you help author.
 
 ## Content
 A lot of suggestions for guides, topics and resources have already been added
