@@ -10,4 +10,5 @@
 - [Class-based Angular services](./class-based-angular-services.md)
 - [Angular modules](./angular-modules.md)
 - [Routing in Angular applications](./routing-in-angular-applications.md)
-- [Forms and validation in Angular projects](forms-and-validation-in-angular-projects.md)
+- [Forms and validation in Angular projects](./forms-and-validation-in-angular-projects.md)
+- [How change detection works in Angular projects](./how-change-detection-works-in-angular-projects.md)
