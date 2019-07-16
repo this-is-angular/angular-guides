@@ -1,5 +1,8 @@
 # Angular's dependency injection system
 
+## Authors
+- Andrew Evans
+
 ## Suggested topics
 - Injectors
 - Module level injectors
@@ -16,3 +19,4 @@
 
 ## Related topics
 - [Angular dependencies](./angular-dependencies.md)
+- [Class-based services](./class-based-angular-services.md)
