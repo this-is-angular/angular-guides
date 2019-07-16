@@ -19,8 +19,7 @@ What are my options?
 - [Storybook](../frameworks-and-libraries/storybook.md)
 - [Tape](../frameworks-and-libraries/tape.md)
 - [TestCafe](../frameworks-and-libraries/testcafe.md)
-- [Test'em](../frameworks-and-libraries/test-em.md)
-- [Test'em](../frameworks-and-libraries/test-em.md)
+- [Test'em](../frameworks-and-libraries/testem.md)
 - [Wallaby.js](../frameworks-and-libraries/wallaby-js.md)
 - [Zombie.js](../frameworks-and-libraries/zombie-js.md)
 
