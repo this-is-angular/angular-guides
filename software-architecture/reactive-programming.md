@@ -7,6 +7,7 @@
 - [Learn RxJS](https://www.learnrxjs.io/)
 - [Official Getting started guide](https://rxjs.dev/guide/overview)
 - [Angular.io: Observables & RxJS](https://angular.io/guide/observables)
+- [Reactive Programming in Angular by Victor Savkin](https://blog.nrwl.io/reactive-programming-in-angular-7dcded697e6c)
 
 ## Suggested topics
 - Composing asynchronous software
