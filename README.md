@@ -27,3 +27,7 @@ as a starting point.
 ## Graphics
 For now, add simple mockup images of charts, diagrams, and illustrations without
 detailed styling. We'll figure out common styling later.
+
+## Writer's guide
+For inspiration on writing tech articles and guides, look at our [Technical
+writer's guide](https://gitlab.com/in-depth-education/angular-in-depth/angular-in-depth-guides/blob/master/technical-writers-guide.md).
