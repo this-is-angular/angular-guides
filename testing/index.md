@@ -1,15 +1,27 @@
+---
+contributors: Andrew, Christian, JiaLi
+---
+
 # Testing strategies
 
 Deciding what to test and how to test it.
 
+| Topics                 | Writers |
+| ---------------------- | ------- |
+| [zone.js](./zonejs.md) | JiaLi   |
+
 ## Suggested resources
+
 - [Magic Tricks of Testing at Ancient City Ruby 2013 by Sandi Metz](https://youtu.be/qPfQM4w4I04)
 
 ## Suggested topics
+
 - The Unit Testing Minimalist strategy by Sandi Metz
 
 ## The Unit Testing Minimalist strategy
+
 ### Notes for this section
+
 Incoming messages are the OUT's (Object Under Test) public API.
 
 To unit test an incoming query message, i.e. a getter or a method that returns
