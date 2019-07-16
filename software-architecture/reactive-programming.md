@@ -2,10 +2,24 @@
 
 ## Suggested resources
 - [Real Talk JavaScript: RxJS Wizardry with Ben Lesh](https://realtalkjavascript.simplecast.fm/39f4a2e2)
+- [RxJS schedulers from outer space - Performance, animations, asynchrony at ng-conf by Michael Hladky](https://youtu.be/wfSKE7GtKhU)
+- [A deep dive into RxJS subjects at Angular In Depth by Michael Hladky](https://www.youtube.com/watch?v=y2aBiA5N4h8)
+- [Learn RxJS](https://www.learnrxjs.io/)
+- [Official Getting started guide](https://rxjs.dev/guide/overview)
+- [Angular.io: Observables & RxJS](https://angular.io/guide/observables)
 
 ## Suggested topics
 - Composing asynchronous software
 - Understanding operators
+
+### Reactive micro and macro architecture
+Concepts and techniques coined and taught by Michael Hladky.
+
+- [Slides](https://docs.google.com/presentation/d/1G76QJ6EC1mwUt99exVyQqwU7FutXbulA8flweWJKubQ/edit#slide=id.g4de9327dad_0_21)
+- [StackBlitz](https://stackblitz.com/edit/rxjs-operating-heavily-dynamic-uis)
+- [ng-conf workshop: Operate heavily dynamic UIs](https://youtu.be/XKfhGntZROQ)
+- [Tweet with images](https://twitter.com/Michael_Hladky/status/1136327245050630144)
+- [AID conf workshop: RxJS advanced patterns: Operate heavily dynamic UIs](https://www.youtube.com/watch?v=3aiJ3XX_vpQ)
 
 ### Filtering and subscription management
 - `takeWhile` vs. `takeUntil`
