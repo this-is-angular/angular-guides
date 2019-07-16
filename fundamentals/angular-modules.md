@@ -6,7 +6,13 @@
     - `declarations`
     - `imports`
     - `exports`
+    - Transitive module scope
+      - Transitive exported scope
+      - Transitive compilation scope
 - Dependency providers
 - Routing and lazy loading
 - Configuration of dependencies
 - Bootstrapping components
+
+## Suggested resources
+- [Angular Revisited: Tree-shakable Components and Optional NgModules](https://blog.angularindepth.com/angular-revisited-tree-shakable-components-and-optional-ngmodules-329a4629276d)
