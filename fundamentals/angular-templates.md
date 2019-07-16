@@ -8,3 +8,7 @@
 - Template reference variables (`#`)
 - `<ng-template>`
 - Structural directive template syntactic sugar (`*`)
+- `<ng-content>`
+
+## Related topics
+- [Build dynamic and reusable components](./build-dynamic-and-reusable-components.md)
