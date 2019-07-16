@@ -5,3 +5,6 @@
 - Output properties
 - UI properties
 - Child queries
+- Lifecycle hooks
+- Host element event listeners
+- Host element bindings
