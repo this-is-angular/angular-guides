@@ -1,6 +1,6 @@
 # Which test frameworks can I use for Angular projects?
 
-## Test frameworks/runners
+## Test frameworks and runners
 What are my options?
 
 - [Angular Playground](../frameworks-and-libraries/angular-playground.md)
