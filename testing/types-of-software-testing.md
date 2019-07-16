@@ -1,6 +1,4 @@
 # Types of software testing
-Maybe a guide/section specifically about types of Angular tests?
-
 Some types of testing are not relevant to Angular projects, but maybe there are
 parallels to be drawn.
 
@@ -10,10 +8,6 @@ parallels to be drawn.
 - [Software Testing Help: Types of testing category](https://www.softwaretestinghelp.com/category/types-of-testing/)
 
 ## Suggested topics
-- UI component testing
-  - Isolated component tests
-  - Shallow component tests
-  - Integrated component tests
 - Mutation testing
   - [Stryker](../libraries-and-frameworks/stryker.md)
 - End-to-end testing
