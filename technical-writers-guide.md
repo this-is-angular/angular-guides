@@ -1,5 +1,9 @@
 # Technical writer's guide
 
+## Authors
+- Lars Gyrup Brink Nielsen
+- Michael Karén
+
 # The title
 
 * Spend time on a good title.
