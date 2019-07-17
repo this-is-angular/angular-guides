@@ -18,3 +18,4 @@ contributors: Andrew Evans, Michael Karén, Nikita Poltoratsky, Santosh Yadav, J
 | [Routing in Angular applications](./routing-in-angular-applications.md)                               |                                  |
 | [Forms and validation in Angular projects](./forms-and-validation-in-angular-projects.md)             | Santosh Yadav, Eliran Eliassy    |
 | [How change detection works in Angular projects](./how-change-detection-works-in-angular-projects.md) | Jia Li Passion                   |
+| [The Angular HttpClient and interceptors](./the-angular-httpclient-and-interceptors.md)               |                                  |
