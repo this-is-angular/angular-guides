@@ -1,3 +1,7 @@
+---
+contributors: Andrew Evans
+---
+
 # Angular's dependency injection system
 
 ## Authors
