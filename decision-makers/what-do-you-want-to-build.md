@@ -33,3 +33,7 @@
 - [Build an Angular project that supports experimental Ivy APIs](../fundamentals/build-an-angular-project-that-supports-experimental-ivy-apis.md)
 - [Build a web component library using Angular CLI and Angular Elements](../tooling/build-a-web-component-library-using-the-angular-cli-and-angular-elements.md)
 - [Integrate your Angular application with React or Vue](../frameworks-and-libraries/integrate-your-angular-application-with-react-or-vue.md)
+
+## Progressive Web App
+- [Build your own app shell component](../design-patterns/build-your-own-app-shell-component.md)
+- [Add an Angular service worker to your application](../tooling/add-an-angular-service-worker-to-your-application.md)
