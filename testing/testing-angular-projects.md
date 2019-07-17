@@ -1,3 +1,7 @@
+---
+contributors: Jia Li Passion
+---
+
 # Testing Angular projects
 
 ## Suggested topics
@@ -21,3 +25,9 @@
 - Directive testing
   - Isolated directive tests
   - Host component tests
+
+### Zone.js
+- `fakeAsync`
+- `async`
+- `sync`
+- Jasmine integration
