@@ -1,3 +1,7 @@
+---
+contributors: Oleksandr Poshtaruk, Wojciech Trawiński
+---
+
 # Reactive programming
 
 ## Suggested resources
