@@ -8,3 +8,6 @@
 - Lifecycle hooks
 - Host element event listeners
 - Host element bindings
+
+## Related topics
+- [Styling Angular components](../ui-and-ux-design/styling-angular-components.md)
