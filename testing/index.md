@@ -4,7 +4,7 @@ contributors: Andrew, Christian, JiaLi
 
 # The Angular professional's guide to testing
 
-| Topics                                                            | Writers |
+| Topics                                                            | Authors |
 | ----------------------------------------------------------------- | ------- |
 | [Types of software testing](./types-of-software-testing.md)       |         |
 | [Test doubles](./test-doubles.md)                                 |         |

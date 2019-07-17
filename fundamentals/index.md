@@ -4,7 +4,7 @@ contributors: Andrew, Michael, Nikita, Santosh, JiaLi
 
 # Angular fundamentals
 
-| Topics                                                                                                | Writers       |
+| Topics                                                                                                | Authors       |
 | ----------------------------------------------------------------------------------------------------- | ------------- |
 | [Angular directives](./angular-directives.md)                                                         |               |
 | [Angular components](./angular-components.md)                                                         |               |
