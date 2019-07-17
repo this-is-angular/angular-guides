@@ -1,3 +1,7 @@
+---
+contributors: Ashnita Bali
+---
+
 # Angular pipes
 
 ## Suggested topics

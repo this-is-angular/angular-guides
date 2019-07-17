@@ -1,5 +1,5 @@
 ---
-contributors: Andrew Evans, Michael Karén, Nikita Poltoratsky, Santosh Yadav, Jia Li Passion
+contributors: Andrew Evans, Michael Karén, Nikita Poltoratsky, Santosh Yadav, Jia Li Passion, Ashnita Bali
 ---
 
 # Angular fundamentals
@@ -10,7 +10,7 @@ contributors: Andrew Evans, Michael Karén, Nikita Poltoratsky, Santosh Yadav, J
 | [Angular components](./angular-components.md)                                                         |                                  |
 | [Build a design system using the Angular CDK](./build-a-design-system-using-the-angular-cdk.md)       | Michael Karén                    |
 | [Angular templates](./angular-templates.md)                                                           |                                  |
-| [Angular pipes](./angular-pipes.md)                                                                   |                                  |
+| [Angular pipes](./angular-pipes.md)                                                                   | Ashnita Bali                     |
 | [Angular's dependency injection system](./angulars-dependency-injection-system.md)                    | Andrew Evans, Nikita Poltoratsky |
 | [Angular dependencies](./angular-dependencies.md)                                                     |                                  |
 | [Class-based Angular services](./class-based-angular-services.md)                                     |                                  |
