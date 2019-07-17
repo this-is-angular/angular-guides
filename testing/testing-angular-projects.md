@@ -1,5 +1,5 @@
 ---
-contributors: Jia Li Passion
+contributors: Jia Li Passion, Andrew Evans
 ---
 
 # Testing Angular projects
