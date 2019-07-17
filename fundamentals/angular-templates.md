@@ -10,6 +10,7 @@
 - `<ng-template>`
 - Structural directive template syntactic sugar (`*`)
 - `<ng-content>`
+- Pipes (`|`)
 
 ## Related topics
 - [Build dynamic and reusable components](./build-dynamic-and-reusable-components.md)
