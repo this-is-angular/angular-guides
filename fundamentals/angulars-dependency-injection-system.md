@@ -1,3 +1,7 @@
+---
+contributors: Andrew
+---
+
 # Angular's dependency injection system
 
 ## Suggested topics
