@@ -1,5 +1,5 @@
 ---
-contributors: Santosh Yadav
+contributors: Santosh Yadav, Eliran Eliassy
 ---
 
 # Forms and validation in Angular projects
