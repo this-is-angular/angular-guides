@@ -4,7 +4,7 @@ contributors: Andrew Evans, Christian Janker, Jia Li Passion
 
 # The Angular professional's guide to testing
 
-| Topics                                                            | Authors        |
+| Topic                                                             | Authors        |
 | ----------------------------------------------------------------- | -------------- |
 | [Types of software testing](./types-of-software-testing.md)       |                |
 | [Test doubles](./test-doubles.md)                                 |                |

@@ -4,7 +4,7 @@ contributors: Andrew Evans, Michael Karén, Nikita Poltoratsky, Santosh Yadav, J
 
 # Angular fundamentals
 
-| Topics                                                                                                | Authors                                 |
+| Topic                                                                                                 | Authors                                 |
 | ----------------------------------------------------------------------------------------------------- | --------------------------------------- |
 | [Angular directives](./angular-directives.md)                                                         |                                         |
 | [Angular components](./angular-components.md)                                                         |                                         |
