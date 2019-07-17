@@ -8,7 +8,7 @@ contributors: Andrew Evans, Michael Karén, Nikita Poltoratsky, Santosh Yadav, J
 | ----------------------------------------------------------------------------------------------------- | --------------------------------------- |
 | [Angular directives](./angular-directives.md)                                                         |                                         |
 | [Angular components](./angular-components.md)                                                         |                                         |
-| [Design systems](./angular-design-systems.md)                                                         | Michael Karén                           |
+| [Build a design system using the Angular CDK](./build-a-design-system-using-the-angular-cdk.md)       | Michael Karén                           |
 | [Angular templates](./angular-templates.md)                                                           |                                         |
 | [Angular pipes](./angular-pipes.md)                                                                   |                                         |
 | [Angular's dependency injection system](./angulars-dependency-injection-system.md)                    | Andrew Evans                            |

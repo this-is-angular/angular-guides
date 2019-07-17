@@ -1,4 +1,5 @@
-# Build a design system using the Angular CDK
+---
+contributors: Michael Karén
+---
 
-## Authors
-- Michael Karén
+# Build a design system using the Angular CDK

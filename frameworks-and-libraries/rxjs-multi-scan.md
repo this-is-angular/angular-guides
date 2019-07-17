@@ -1,7 +1,8 @@
-# The `multiScan` operator for RxJS
+---
+contributors: Lars Gyrup Brink Nielsen
+---
 
-## Authors
-- Lars Gyrup Brink Nielsen
+# The `multiScan` operator for RxJS
 
 ## Suggested resources
 - [NPM package page](https://www.npmjs.com/package/rxjs-multi-scan)

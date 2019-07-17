@@ -4,9 +4,6 @@ contributors: Andrew Evans
 
 # Angular's dependency injection system
 
-## Authors
-- Andrew Evans
-
 ## Suggested topics
 - Injectors
 - Module level injectors
