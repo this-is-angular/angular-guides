@@ -1,8 +1,8 @@
-# Technical writer's guide
+---
+contributors: Michael Karén, Lars Gyrup Brink Nielsen
+---
 
-## Authors
-- Lars Gyrup Brink Nielsen
-- Michael Karén
+# Technical writer's guide
 
 # The title
 
