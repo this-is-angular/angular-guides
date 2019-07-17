@@ -8,4 +8,4 @@ contributors: Ashnita Bali
 - Parameters
 - Pure vs. impure
 - Memoization
-- Build-in pipes (`CommonModule`)
+- Built-in pipes (`CommonModule`)
