@@ -1,5 +1,5 @@
 ---
-contributors: Michael
+contributors: Michael Karén
 ---
 
 # Angular Design Systems

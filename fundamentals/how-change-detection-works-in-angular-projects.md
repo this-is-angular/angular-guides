@@ -1,6 +1,11 @@
+---
+contributors: Jia Li, Nikita Poltoratsky
+---
+
 # How change detection works in Angular projects
 
 ## Suggested topics
+
 - Dirty checking
 - Differs
 - Change detection strategies

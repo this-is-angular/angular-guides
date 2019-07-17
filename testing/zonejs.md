@@ -1,5 +1,5 @@
 ---
-contributors: JiaLi
+contributors: Jia Li
 ---
 
 # Zone.js

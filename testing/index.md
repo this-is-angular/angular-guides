@@ -1,5 +1,5 @@
 ---
-contributors: Andrew, Christian, JiaLi
+contributors: Andrew Evans, Christian Janker, Jia Li
 ---
 
 # The Angular professional's guide to testing
@@ -11,4 +11,4 @@ contributors: Andrew, Christian, JiaLi
 | [Testing strategies](./testing-strategies.md)                     |         |
 | [Test-driven development (TDD)](./test-driven-development-tdd.md) |         |
 | [Testing Angular projects](./testing-angular-projects.md)         |         |
-| [Zone.js](./zonejs.md)                                            | JiaLi   |
+| [Zone.js](./zonejs.md)                                            | Jia Li  |

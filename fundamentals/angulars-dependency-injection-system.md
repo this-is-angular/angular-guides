@@ -1,5 +1,5 @@
 ---
-contributors: Andrew
+contributors: Andrew Evans
 ---
 
 # Angular's dependency injection system
