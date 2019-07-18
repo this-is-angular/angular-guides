@@ -6,7 +6,7 @@ contributors: Andrew Evans, Christian Janker, Jia Li Passion
 
 | Topic                                                             | Authors                      |
 | ----------------------------------------------------------------- | ---------------------------- |
-| [Types of software testing](./types-of-software-testing.md)       |                              |
+| [Types of software testing](./types-of-software-testing.md)       | Christian Janker             |
 | [Test doubles](./test-doubles.md)                                 |                              |
 | [Testing strategies](./testing-strategies.md)                     |                              |
 | [Test-driven development (TDD)](./test-driven-development-tdd.md) |                              |
