@@ -31,7 +31,7 @@ Concepts and techniques coined and taught by Michael Hladky.
 - `takeWhile` when you want to unsubscribe based on an event in the observable
   pipeline
 - `takeUntil` when you want to unsubscribe based on another event
-- `filte`r to filter out events based on their value
+- `filter` to filter out events based on their value
 - [Learn RxJS: Filtering operators](https://www.learnrxjs.io/operators/filtering/)
 
 ### Building your own observable
