@@ -1,3 +1,7 @@
+---
+contributors: Adrian Fâciu
+---
+
 # Angular dependencies
 
 ## Suggested resources

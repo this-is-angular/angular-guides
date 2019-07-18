@@ -1,3 +1,7 @@
+---
+contributors: Adrian Fâciu
+---
+
 # Class-based Angular services
 
 ## Suggested topics

@@ -1,5 +1,5 @@
 ---
-contributors: Andrew Evans, Michael Karén, Nikita Poltoratsky, Santosh Yadav, Jia Li Passion, Ashnita Bali
+contributors: Andrew Evans, Michael Karén, Nikita Poltoratsky, Santosh Yadav, Jia Li Passion, Ashnita Bali, Adrian Fâciu
 ---
 
 # Angular fundamentals
@@ -12,8 +12,8 @@ contributors: Andrew Evans, Michael Karén, Nikita Poltoratsky, Santosh Yadav, J
 | [Angular templates](./angular-templates.md)                                                           |                                  |
 | [Angular pipes](./angular-pipes.md)                                                                   | Ashnita Bali                     |
 | [Angular's dependency injection system](./angulars-dependency-injection-system.md)                    | Andrew Evans, Nikita Poltoratsky |
-| [Angular dependencies](./angular-dependencies.md)                                                     |                                  |
-| [Class-based Angular services](./class-based-angular-services.md)                                     |                                  |
+| [Angular dependencies](./angular-dependencies.md)                                                     | Adrian Fâciu                     |
+| [Class-based Angular services](./class-based-angular-services.md)                                     | Adrian Fâciu                     |
 | [Angular modules](./angular-modules.md)                                                               |                                  |
 | [Routing in Angular applications](./routing-in-angular-applications.md)                               |                                  |
 | [Forms and validation in Angular projects](./forms-and-validation-in-angular-projects.md)             | Santosh Yadav, Eliran Eliassy    |
