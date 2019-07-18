@@ -1,3 +1,7 @@
+---
+contributors: Christian Janker
+---
+
 # Types of software testing
 Some types of testing are not relevant to Angular projects, but maybe there are
 parallels to be drawn.
