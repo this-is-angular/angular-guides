@@ -1,3 +1,7 @@
+---
+contributors: Nate Lapinski
+---
+
 # Routing in Angular applications
 
 ## Suggested topics
