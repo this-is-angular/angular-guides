@@ -12,3 +12,6 @@ contributors: Ashnita Bali
 - Pure vs. impure
 - Memoization
 - Built-in pipes (`CommonModule`)
+- Built a custom pipe
+  - Custom pipe parameters
+  - [Text pipes](https://stackblitz.com/edit/testing-and-faking-angular-dependencies-app)
