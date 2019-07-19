@@ -1,3 +1,7 @@
+---
+contributors: Michael Karén
+---
+
 # The Angular HttpClient and interceptors
 
 ## Suggested resources
