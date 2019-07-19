@@ -15,6 +15,11 @@ to this repository. Currently, we would like to focus on getting [the Angular
 fundamentals guides](./fundamentals/index.md) done first. This will help us put
 our name out there as a source of quality guides for Angular development.
 
+*Suggested topics* are only that: **suggestions** from editors. *Suggested
+resources* are not necessarily meant to be added as links in the guide itself.
+They are meant to be used as an inspiration for writing the guide. *Notes* are
+notes abouts suggested topics.
+
 ## Editors
 Our editors are Tim Descryver and Lars Gyrup Brink Nielsen. Reach out to us if
 you need help with your content or want to start contributing.
