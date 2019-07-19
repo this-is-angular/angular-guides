@@ -1,5 +1,5 @@
 # Which UI libraries can I use for Angular projects?
-- [Angular CDK](../frameworks-and-libraries/angular-cdk.md)
+- [Angular CDK](../frameworks-and-libraries/angular-cdk/index.md)
 - [Angular Material](../frameworks-and-libraries/angular-material.md)
 - [Clarity](../frameworks-and-libraries/clarity-design-system.md)
 - [Ignite UI](../frameworks-and-libraries/ignite-ui.md)
