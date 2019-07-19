@@ -85,9 +85,13 @@ Subscribers have these safety semantics:
   called on any of them and therefore have their subscription kept active.
 
 ### Subjects
-- `BehaviorSubjects` are for warm/hot observables
-- `Subjects` are for cold observables
-- `ReplaySubjects` are for multicast/buffered observables
+Subjects can be used for multicasting.
+
+- `BehaviorSubjects` have an initial state when created, so they can be used to
+  capture hot streams
+- `Subjects` are for eventual values--they don't have an initial or current
+  state
+- `ReplaySubjects` are used to replay streams
 
 ### Subscriptions
 Forgetting to unsubscribe will lead to memory leaks and side effects being run
