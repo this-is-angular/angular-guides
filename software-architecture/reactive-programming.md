@@ -16,6 +16,9 @@ contributors: Oleksandr Poshtaruk, Wojciech Trawiński
 ## Suggested topics
 - Composing asynchronous software
 - Understanding operators
+- "Breaking the ice"
+- Reactive programming in more abstract terms, no RxJS specifics
+- How RxJS is used by Angular
 
 ### Reactive micro and macro architecture
 Concepts and techniques coined and taught by Michael Hladky.
