@@ -12,14 +12,24 @@ contributors: Oleksandr Poshtaruk, Wojciech Trawiński
 - [Official Getting started guide](https://rxjs.dev/guide/overview)
 - [Angular.io: Observables & RxJS](https://angular.io/guide/observables)
 - [Reactive Programming in Angular by Victor Savkin](https://blog.nrwl.io/reactive-programming-in-angular-7dcded697e6c)
+- [RxJS: Understanding Subjects by Nicholas Jamieson](https://blog.angularindepth.com/rxjs-understanding-subjects-5c585188c3e1)
+- [RxJS: Understanding the publish and share Operators by Nicholas Jamieson](https://blog.angularindepth.com/rxjs-understanding-the-publish-and-share-operators-16ea2f446635)
+- [RxJS: How to Use refCount](https://blog.angularindepth.com/rxjs-how-to-use-refcount-73a0c6619a4e)
 
 ## Suggested topics
 - Composing asynchronous software
 - Understanding operators
 - "Breaking the ice"
 - Reactive programming in more abstract terms, no RxJS specifics
+- Lingo
+  - Notifications (next, complete, error)
+  - Events/values
+  - Subscribers/observers, observables/streams
 - How RxJS is used by Angular
-- `share`, `publish`, and `refCount`
+- Multicasting
+  - `share`, `publish`, `refCount`, `multicast`, `connect`, and connectable
+    observables
+  - Subjects
 - Schedulers
 - Cold, hot, warm observables
 
@@ -108,3 +118,16 @@ Strategies for managing subscriptions:
 - `Subscription#add` (tree of subscriptions) vs. `SubSink` (array of
   subscriptions)
 - Manual unsubscription of every subscription
+
+### `share`, `publish`, `refCount`, and `multicast`
+`refCount` runs teardown logic when the number of subscribers goes down to 0.
+
+`multicast` with and without a factory.
+
+### Cold, hot, and warm observables
+Observables are cold by default. Cold observables create a new producer per
+subscriber. They are unicast.
+
+You can make them hot by adding a `share*` operation. Hot observables share a
+single producer between multiple subscribers. This means that setup is performed
+at most once. They are multicast.
