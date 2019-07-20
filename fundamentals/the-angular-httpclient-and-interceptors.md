@@ -41,12 +41,15 @@ If you provide interceptors A, then B, then C, requests will flow in A->B->C and
 Another nice thing about interceptors is that they can process the request and response together.
 This gives the possibility to combine a feature on the whole event.
 
-- Feature-specific interceptors
-- Component-specific interceptors
+- Feature-specific interceptors (an injector that only works in a lazy-loaded
+  feature module)
 - Shared error handlers
+- Logging interceptor
+  - Next step: Configurable logging injector
 
 ### Security
 
 - [Cross-Site Request Forgery (XSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) is an attack technique by which the attacker can trick an authenticated user into unknowingly executing actions on your website. 
 Angular uses interceptors for protection against XSRF. It does this by reading the XSRF-TOKEN from a cookie and setting it as the X-XSRF-TOKEN HTTP header. Since only code that runs on your domain could read the cookie, the backend can be sure that the HTTP request came from your client application and not an attacker.
-- Authentication and authorization headers
+- Authentication and authorization headers (only mention the use case, don't go
+  into details--we'll cover this in another guide later on)
