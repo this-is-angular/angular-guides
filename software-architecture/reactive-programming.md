@@ -19,6 +19,9 @@ contributors: Oleksandr Poshtaruk, Wojciech Trawiński
 - "Breaking the ice"
 - Reactive programming in more abstract terms, no RxJS specifics
 - How RxJS is used by Angular
+- `share`, `publish`, and `refCount`
+- Schedulers
+- Cold, hot, warm observables
 
 ### Reactive micro and macro architecture
 Concepts and techniques coined and taught by Michael Hladky.
