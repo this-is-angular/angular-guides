@@ -6,7 +6,7 @@ contributors: Andrew Evans, Michael Karén, Nikita Poltoratsky, Santosh Yadav, J
 
 | Topic                                                                                                 | Authors                          |
 | ----------------------------------------------------------------------------------------------------- | -------------------------------- |
-| [Angular directives](./angular-directives.md)                                                         |                                  |
+| [Angular directives](./angular-directives.md)                                                         | Michael Karén                    |
 | [Angular components](./angular-components.md)                                                         |                                  |
 | [Angular templates](./angular-templates.md)                                                           |                                  |
 | [Angular pipes](./angular-pipes.md)                                                                   | Ashnita Bali                     |
@@ -17,4 +17,4 @@ contributors: Andrew Evans, Michael Karén, Nikita Poltoratsky, Santosh Yadav, J
 | [Routing in Angular applications](./routing-in-angular-applications.md)                               | Nate Lapinski                    |
 | [Forms and validation in Angular projects](./forms-and-validation-in-angular-projects.md)             | Santosh Yadav, Eliran Eliassy    |
 | [How change detection works in Angular projects](./how-change-detection-works-in-angular-projects.md) | Jia Li Passion                   |
-| [The Angular HttpClient and interceptors](./the-angular-httpclient-and-interceptors.md)               |                                  |
+| [The Angular HttpClient and interceptors](./the-angular-httpclient-and-interceptors.md)               | Michael Karén                    |
