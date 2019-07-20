@@ -1,3 +1,7 @@
+---
+contributors: Michael Karén
+---
+
 # Angular directives
 
 ## Suggested topics
