@@ -15,16 +15,30 @@ contributors: Oleksandr Poshtaruk, Wojciech Trawiński
 - [RxJS: Understanding Subjects by Nicholas Jamieson](https://blog.angularindepth.com/rxjs-understanding-subjects-5c585188c3e1)
 - [RxJS: Understanding the publish and share Operators by Nicholas Jamieson](https://blog.angularindepth.com/rxjs-understanding-the-publish-and-share-operators-16ea2f446635)
 - [RxJS: How to Use refCount](https://blog.angularindepth.com/rxjs-how-to-use-refcount-73a0c6619a4e)
+- [The introduction to Reactive Programming you've been missing by André Stalz](https://gist.github.com/staltz/868e7e9bc2a7b8c1f754)
 
 ## Suggested topics
 - Composing asynchronous software
 - Understanding operators
 - "Breaking the ice"
+  - Reactive programming in a nutshell
+  - The Observer Pattern
+  - The building blocks of RxJS
+    - Observables
+    - Subscribers
+    - Subscriptions
+    - Subjects
+    - Operators
+  - Observables are executed lazily. They don't do anything until they have a
+    subscriber.
 - Reactive programming in more abstract terms, no RxJS specifics
+  - Reactive programming sweeps the intermediary states under the rug, hiding
+    them in operators
 - Lingo
   - Notifications (next, complete, error)
   - Events/values
   - Subscribers/observers, observables/streams
+  - Subscriptions
 - How RxJS is used by Angular
 - Multicasting
   - `share`, `publish`, `refCount`, `multicast`, `connect`, and connectable
