@@ -46,6 +46,10 @@ contributors: Oleksandr Poshtaruk, Wojciech Trawiński
   - Subjects
 - Schedulers
 - Cold, hot, warm observables
+- Flattening observables
+  - `merge*`
+  - `exhaust*`
+  - `switch*`
 
 ### Reactive micro and macro architecture
 Concepts and techniques coined and taught by Michael Hladky.
