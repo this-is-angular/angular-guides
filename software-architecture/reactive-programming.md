@@ -34,6 +34,12 @@ contributors: Oleksandr Poshtaruk, Wojciech Trawiński
 - Reactive programming in more abstract terms, no RxJS specifics
   - Reactive programming sweeps the intermediary states under the rug, hiding
     them in operators
+- Reactive programming libraries
+  - [RxJS](https://rxjs.dev/)
+  - [Bacon.js](https://baconjs.github.io/)
+  - [Sherlock](https://github.com/politie/sherlock)
+  - [DerivableJS](https://github.com/ds300/derivablejs)
+  - [Highland](https://github.com/caolan/highland)
 - Lingo
   - Notifications (next, complete, error)
   - Events/values
