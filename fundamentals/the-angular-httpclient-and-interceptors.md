@@ -44,8 +44,8 @@ This gives the possibility to combine a feature on the whole event.
 - Feature-specific interceptors (an injector that only works in a lazy-loaded
   feature module)
 - Shared error handlers
-- Logging interceptor
-  - Next step: Configurable logging injector
+- Logging interceptor or [RetryInterceptor](https://www.youtube.com/watch?v=EoSn8qASqQA&t=283)
+  - Next step: Configurable interceptor
 
 ### Security
 
