@@ -9,9 +9,7 @@ contributors: Michael Karén
 - [Insider’s guide into interceptors and HttpClient mechanics in Angular](https://blog.angularindepth.com/insiders-guide-into-interceptors-and-httpclient-mechanics-in-angular-103fbdb397bf)
 - [Top 10 ways to use Interceptors in Angular](https://blog.angularindepth.com/top-10-ways-to-use-interceptors-in-angular-db450f8a62d6)
 
-## Suggested topics
-
-### `HttpClient`
+## `HttpClient`
 
 - Requests
   - Verbs
@@ -24,7 +22,7 @@ contributors: Michael Karén
     - `withCredentials`
   - Handling errors
 
-### Interceptors (middleware)
+## Interceptors (middleware)
 
 [HttpInterceptor](https://angular.io/api/common/http/HttpInterceptor) was introduced with Angular 4.3.
 It provides a way to intercept HTTP requests and responses to transform or handle them before passing them along.
@@ -47,7 +45,7 @@ This gives the possibility to combine a feature on the whole event.
 - Logging interceptor or [RetryInterceptor](https://www.youtube.com/watch?v=EoSn8qASqQA&t=283)
   - Next step: Configurable interceptor
 
-### Security
+## Security
 
 - [Cross-Site Request Forgery (XSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) is an attack technique by which the attacker can trick an authenticated user into unknowingly executing actions on your website. 
 Angular uses interceptors for protection against XSRF. It does this by reading the XSRF-TOKEN from a cookie and setting it as the X-XSRF-TOKEN HTTP header. Since only code that runs on your domain could read the cookie, the backend can be sure that the HTTP request came from your client application and not an attacker.
