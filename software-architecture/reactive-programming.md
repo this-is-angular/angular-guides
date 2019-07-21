@@ -50,6 +50,7 @@ contributors: Oleksandr Poshtaruk, Wojciech Trawiński
   - `merge*`
   - `exhaust*`
   - `switch*`
+  - `concat*`
 
 ### Reactive micro and macro architecture
 Concepts and techniques coined and taught by Michael Hladky.
