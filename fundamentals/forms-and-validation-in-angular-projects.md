@@ -439,8 +439,9 @@ Now as we are aware of the APIs, let's create some forms. We will see several wa
         addressLine2: [''],
         city: ['']
       })
-    }, { validators: [CustomValidator.validatePassword] });
-    ```
+    }, { validators: [CustomValidator.validatePassword]
+    );
+  ```
 
   3. We need to update the HTML as well to show the error and recently added confirm password control, add below code to your template.
 
@@ -481,7 +482,7 @@ Now as we are aware of the APIs, let's create some forms. We will see several wa
   </form>
   ```
 
-  Currently, the error is attached to form object you can also add the error on control level you can replace the earlier password validator with below code.
+  Currently, the error is attached to the form object you can also add the error on control level you can replace the earlier password validator with below code.
 
   ```ts
   static validatePassword(form: FormGroup): ValidationErrors | null {
