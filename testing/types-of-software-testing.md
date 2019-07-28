@@ -1,10 +1,65 @@
 ---
 contributors: Christian Janker
 ---
+Have in mind. This is a first draft. That covers mainly thoughts that popped into my mind.
+
+# Motivation to testing
+Before we deep dive into the technical bits an pieces of testing your Angular application, we have to go through some
+basic points. 
+
+- If you ever have to convince somebody to write tests? Colleagues, yourself. Please read on.
+- If you ever have to convince your managers that testing is important? Please read on.
+- If you think testing is a waste of time? Please read on.
+- If you hate your tests? Please read on.
+- If you don't know what to test? Please read on.
+- If you do testing, but it doesn't feel quite right the way you do it. Please read on.
+
+It seems testing is not very popular amongst us (frontend) developers. At least I made this experience,
+basically with every project I was involed in. But why is this the case?
+
+Why is testing such a burden for us? Why do we test at all?
+
+Every professional developer knows, at least somewhere back in his/her mind, that testing and writing test is a essential part of their daily development life.
+That's what we have learned.
+
+Good developers write tests!
+
+
+NOPE
+
+Good developers write good tests
+
+What are good tests?
+
+Testing behaviour not implementation details!
+
+Clean, readable test!
+
+Good Case
+Bad Case
+Edge Case
+
+Avoid False Positives
+Avoid False Negatives
+
+
+## Confidence
+The most important point. Not only during development we assure that we develop our application correctly
+
+## Speed
+
+
+
 
 # Types of software testing
 Some types of testing are not relevant to Angular projects, but maybe there are
 parallels to be drawn.
+
+## Unit Testing
+
+## Integration Testing
+
+## End to End Testing
 
 ## Suggested resources
 - [Angular.io: Testing guide](https://angular.io/guide/testing)
