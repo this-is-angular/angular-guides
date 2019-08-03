@@ -1,5 +1,5 @@
 ---
-contributors: Oleksandr Poshtaruk, Wojciech Trawiński
+contributors: Wojciech Trawiński
 ---
 
 # Reactive programming
