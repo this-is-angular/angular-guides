@@ -37,8 +37,8 @@ Typically, you will have a component that relies (is dependant) upon a service. 
 
 For the purposes of this guide, we are going to call __injectors__ anything in your Angular application that you have setup to be injected into objects.  This is typically done with the use of:
 - `providers: []` array in modules
-- `providedIn` in the case of `tree-shakeable-components`
-- `providedIn: 'root'`
+- `providedIn` in the case of `tree-shakeable-components` <!-- Lars B: Surely, you mean tree-shakable **providers** 😊 However, there are many ways to configure tree-shakable providers -->
+- `providedIn: 'root'` 
 
 The methods used by __injectors__ is also typically discussed in terms of `eagerly loaded` and `lazy-loaded` modules.
 
