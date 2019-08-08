@@ -161,23 +161,9 @@ describe('AppComponent', () => {
   let component: AppComponent;
   let fixture: ComponentFixture<AppComponent>;
   const weatherDisplay: WeatherDisplay = require('../assets/testing/weather-display.json');
-  let weatherService: WeatherService;
-  let debugElement: DebugElement;
 
   beforeEach(async(() => {
-    TestBed.configureTestingModule({
-      declarations: [
-        AppComponent,
-        CurrentWeatherComponent,
-        ForecastComponent
-      ],
-      providers: [ WeatherService ],
-      imports: [
-        HttpClientTestingModule, MaterialModule
-      ]
-    }).compileComponents();
-
-    fixture = TestBed.createComponent(AppComponent);
+    fixture = new AppComponent(new WeatherService());
     debugElement = fixture.debugElement;
     component = fixture.componentInstance;
     weatherService = debugElement.injector.get(WeatherService);
@@ -196,7 +182,7 @@ describe('AppComponent', () => {
 });
 ```
 
-As you can see in the example the test fully mocks the `getCurrentPosition` method of the HTML5 geolocation api that is called.  What is actually being tested here is just the component's underlying method call, and not the actual rendering that occurs.  We could do the same for the `savePosition` method, but that was left out for brevity.
+As you can see in the example the test fully mocks the `getCurrentPosition` method of the HTML5 geolocation api that is called.  What is actually being tested here is just the component's underlying method call, and not the actual rendering that occurs.  We could do the same for the `savePosition` method, but that was left out for brevity.  Also notice the lack of the `TestBed` class from the core angular testing library.  We leave out the `TestBed` here to show that the isolated test is focused on the component and does not include DOM testing.
 
 #### Shallow component tests
 
