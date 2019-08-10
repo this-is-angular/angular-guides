@@ -40,11 +40,15 @@ contributors: Wojciech Trawiński
   - [Sherlock](https://github.com/politie/sherlock)
   - [DerivableJS](https://github.com/ds300/derivablejs)
   - [Highland](https://github.com/caolan/highland)
+  - [Cycle.js](https://cycle.js.org/)
+  - [XState](https://xstate.js.org/docs/)
+  - [MobX](https://mobx.js.org/)
 - Lingo
   - Notifications (next, complete, error)
   - Events/values
   - Subscribers/observers, observables/streams
   - Subscriptions
+  - Producers, consumers
 - How RxJS is used by Angular
 - Multicasting
   - `share`, `publish`, `refCount`, `multicast`, `connect`, and connectable
