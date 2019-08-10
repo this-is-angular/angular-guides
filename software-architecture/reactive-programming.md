@@ -149,10 +149,21 @@ Strategies for managing subscriptions:
 
 `multicast` with and without a factory.
 
-### Cold, hot, and warm observables
-Observables are cold by default. Cold observables create a new producer per
-subscriber. They are unicast.
+### Cold, hot, warm, and shared observables
+An observable is cold if a new producer is created per subscriber. This implies
+that the setup of the producer such as an HTTP call is performed on
+subscription. Because of this, cold observables are unicast.
 
-You can make them hot by adding a `share*` operation. Hot observables share a
-single producer between multiple subscribers. This means that setup is performed
-at most once. They are multicast.
+In contrast, observables are hot if their producer is created separately from
+subscription, for example if an observable adds an event listener to an existing
+WebSocket connection. Hot observables are most often multicast.
+
+Warm observables are hot but have lazy setup logic. They don't emit values until
+they have at least one subscriber. Late subscribers might miss emitted values.
+We can implement warm observables using the `publish` operator to create a
+connectable observable, followed by a `refCount` operation to keep track of
+subscribers.
+
+Shared observables are created using the `share*` operators. They act like warm
+observables, except they are recreated if a subscription is created after their
+completion.
