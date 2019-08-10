@@ -147,27 +147,19 @@ As mentioned in the intro, __Isolated Tests__ treat a component as a JavaScript 
 For our weather component, an isolated test would look like the following:
 
 ```ts
-import { TestBed, async, ComponentFixture, fakeAsync, flushMicrotasks, tick} from '@angular/core/testing';
+import { fakeAsync, flushMicrotasks } from '@angular/core/testing';
 import { AppComponent } from './app.component';
-import { CurrentWeatherComponent } from './components/current-weather/current-weather.component';
 import { ForecastComponent } from './components/forecast/forecast.component';
-import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { WeatherService } from './services/weather.service';
-import { WeatherDisplay } from './models/weatherDisplay';
-import { DebugElement } from '@angular/core';
-import { MaterialModule } from './material/material.module';
 
 describe('AppComponent', () => {
   let component: AppComponent;
-  let fixture: ComponentFixture<AppComponent>;
-  const weatherDisplay: WeatherDisplay = require('../assets/testing/weather-display.json');
+  let weatherService: WeatherService;
 
-  beforeEach(async(() => {
-    fixture = new AppComponent(new WeatherService());
-    debugElement = fixture.debugElement;
-    component = fixture.componentInstance;
-    weatherService = debugElement.injector.get(WeatherService);
-  }));
+  beforeEach(() => {
+    weatherService = new WeatherService();
+    component = new AppComponent(weatherService);
+  });
 
   it('should call the HTML5 geolocation api and return coordinates', fakeAsync(() => {
     spyOn(navigator.geolocation, 'getCurrentPosition').and.callFake(function() {
