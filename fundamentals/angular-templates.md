@@ -19,6 +19,7 @@
 - Internationalization
 - Pluralization
 - Animations (`@`)
+- Safe navigation operator (`?`)
 
 ## Related topics
 - [Build dynamic and reusable components](./build-dynamic-and-reusable-components.md)
