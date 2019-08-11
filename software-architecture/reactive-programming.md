@@ -69,7 +69,8 @@ Concepts and techniques coined and taught by Michael Hladky.
 - [StackBlitz](https://stackblitz.com/edit/rxjs-operating-heavily-dynamic-uis)
 - [ng-conf workshop: Operate heavily dynamic UIs](https://youtu.be/XKfhGntZROQ)
 - [Tweet with images](https://twitter.com/Michael_Hladky/status/1136327245050630144)
-- [AID conf workshop: RxJS advanced patterns: Operate heavily dynamic UIs](https://www.youtube.com/watch?v=3aiJ3XX_vpQ)
+- [ngVikings talk: Operate heavily dynamic UI’s with RxJS](https://youtu.be/JIfxMHqU5xk)
+- [Frontend Love workshop: RxJS Advanced Patterns Learn how to manage heavily dynamic Angular apps](https://youtu.be/YwjwYaXTLz8)
 
 ### Filtering and subscription management
 - `takeWhile` vs. `takeUntil`
