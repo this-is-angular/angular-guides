@@ -7,6 +7,9 @@
   - Functors
   - Immutable data structures
   - Pure functions
+  - Composing
+  - Piping
+  - Array extras
 - Libraries
   - Ramda
   - [Shades](https://github.com/jamesmcnamara/shades) (lenses)
