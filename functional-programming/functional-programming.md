@@ -6,6 +6,7 @@
   - Partial application
   - Functors
   - Immutable data structures
+  - Pure functions
 - Libraries
   - Ramda
   - [Shades](https://github.com/jamesmcnamara/shades) (lenses)
