@@ -66,7 +66,7 @@ export class AppComponent {}
 // Table of static routes. This defintes all possible routes in our application.
 // When an object's `path` matches, its `component` is rendered using the 
 // `<router-outlet>` directive
-const ROUTES = [
+const ROUTES: Route[] = [
   { path: 'path-a', component: ComponentA },
   { path: 'path-b', component: ComponentB },
 ];
@@ -107,17 +107,29 @@ Server-side routing is simple. When the user clicks on link #1, the browser dete
 With server-side routing, each time a navigation occurs, it involves a request to some server, and it results in an entirely new page being loaded. While server-side rendering can be great for things like web crawlers and search engine optimization, it tends to involve a lot of page refreshes, and can cause user experience to suffer.
 
 ### Client-Side Routing (Angular)
-With client-side routing, things are very different. Notice in #2 that the anchor tag is using a `routerLink` directive instead of a standard `href` attribute. This is so Angular can listen in and intercept the click instead of letting the browser make a GET request. When this link is clicked, the `routerLink` will tell Angular's router that the link has been clicked (this is also why updating the browser location directly will result in a full page refresh, since the Router doesn't intercept this). Instead of the browser making a request to a server for a new page, the router will instead check a list of user-defined routes to see if there are any entries for the `/path-a`. If it finds one, the router will render the component(s) associated with that route using a `<router-outlet>` directive, all without causing a single page refresh!
+With client-side routing, things are very different. Notice in #2 that the anchor tag is using a `routerLink` directive instead of a standard `href` attribute. This is so Angular can listen in and intercept the click instead of letting the browser make a GET request, as it did in the previous scenario. When this link is clicked, the `routerLink` will tell Angular's router that the link has been clicked (this is also why updating the browser location directly will result in a full page refresh, since the Router doesn't intercept this). Instead of the browser making a request to a server for a new page, the router will instead check a list of user-defined routes to see if there are any entries for the `/path-a`. If it finds one, the router will render the component(s) associated with that route using a `<router-outlet>` directive, all without causing a single page refresh!
 
 We will go into much more detail in this guide about how the Angular router makes all of this possible. Just know for now that client-side routing is done entirely in the browser, and doesn't usually involve a page refresh (unless a user forces one by interacting with the browser location manually).
 
 ## Defining Application Routes
+When building an application, we usually know some if not all of our routes ahead of time. For example, an e-commerce application might have routes for `home`, `products`, and `locations`. Small applications may have only a handful of routes, whereas larger applications can have many routes. Regardless of how many routes an application has, we need some way of defining them.
 
-### The Route Configuration Object
+In general, there are two approaches to defining routes in an application; `static` routing and `dynamic` routing. Static routing means that you define all of your application's routes in a configuration object before the app has loaded and before any rendering has taken place. With dynamic routing, routing takes place while your application is rendering. An example of this is version 4+ of the React-Router library. [give a simple example].
+Since Angular uses static routing, that will be the focus of this chapter.
 
 ### Static Routing, and the Route Configuration Object
-If you come from React, you may be familiar with dynamic routing. [give a simple example].
-Angular uses a more rigid approach, known as static routing. [give a simple example].
+With static routing, you define all of your application's routes ahead of time, using an array of configuration objects. In our example above, we placed these configuration objects inside of an array called `ROUTES`:
+
+```typescript
+// Table of static routes. This defintes all possible routes in our application.
+// When an object's `path` matches, its `component` is rendered using the 
+// `<router-outlet>` directive
+const ROUTES: Route[] = [
+  { path: 'path-a', component: ComponentA },
+  { path: 'path-b', component: ComponentB },
+];
+```
+This defines two possible routes for our application, `path-a` and `path-b`. When the browser location matches `path-a`, Angular will render `ComponentA` using our application's `<router-outlet>` directives. Notice that this is an array of objects of type `Route`. A `Route` specifies a pairing between a `path`, and a `component`. The full list of properties on the `Route` interface is beyond the scope of this chapter, but a complete listing can be found on the official Angular site.
 
 ### Mental Model 1: A Tree of Components
 If you are familiar with the Document Object Model (DOM), then you will know that an HTML document has an internal, JavaScript representation inside of the browser, where each element in the HTML document becomes a JavaScript object in the DOM. Since there is a hierarchy among nodes in an HTML document (due to nesting), these nodes are best represented by a tree.
