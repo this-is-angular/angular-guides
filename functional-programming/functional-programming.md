@@ -10,6 +10,7 @@
   - Composing
   - Piping
   - Array extras
+  - Memoization
 - Libraries
   - Ramda
   - [Shades](https://github.com/jamesmcnamara/shades) (lenses)
