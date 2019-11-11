@@ -12,6 +12,7 @@ What are my options?
 - [Jest](../frameworks-and-libraries/jest.md)
 - [Karma](../frameworks-and-libraries/karma.md)
 - [Mocha](../frameworks-and-libraries/mocha.md)
+- [Nightwatch.js](../frameworks-and-libraries/nightwatch-js.md)
 - [Puppeteer](../frameworks-and-libraries/puppeteer.md)
 - [Protractor](../frameworks-and-libraries/protractor.md)
 - [QUnit](../frameworks-and-libraries/qunit.md)
