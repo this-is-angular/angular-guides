@@ -6,6 +6,7 @@ What are my options?
 - [Angular Playground](../frameworks-and-libraries/angular-playground.md)
 - [Angular Testing Library](../frameworks-and-libraries/angular-testing-library.md)
 - [Ava](../frameworks-and-libraries/ava.md)
+- [CodeceptJS](../frameworks-and-libraries/codeceptjs.md)
 - [Cypress](../frameworks-and-libraries/cypress.md)
 - [Intern](../frameworks-and-libraries/intern.md)
 - [Jasmine](../frameworks-and-libraries/jasmine.md)
