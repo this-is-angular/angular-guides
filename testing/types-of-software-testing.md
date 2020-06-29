@@ -2,6 +2,42 @@
 contributors: Christian Janker
 ---
 Have in mind. This is a first draft. That covers mainly thoughts that popped into my mind.
+Transcript from my talk about testing.
+
+If you are not yet a convert to testing, you may have heard your colleagues banging the drum about the value of testing, tried it and found it slow,
+complex and distracting or even unnecessary.
+
+And yet, there is this little nagging voice that asks: Are you missing something? Should you push yourself again and master this domain?
+
+YES! Try it! We will guide you.
+
+If you have alreday some experience with testing tools like Jasmine or Jest, then you are most likely familiar with the key words:
+- Describe
+- It
+- Expect
+
+If you make that into a three letter acronym you get: DIE
+
+This is how many people feel when it comes to testing. It feels something like a little death!
+
+Let's try to change that.
+
+
+Why do we write tests at all?
+Ever had this thought? Me too :) 
+But more often that is just the conclusion we come up when we don't know how test a certain piece of code.
+We then often say: This can't be tested followed by 
+There is nothing to test here.
+
+This is wrong, and let's be honest. Every responsible and professional developer knows that automated testing
+is part of the job. That's how we have learned it. Right? 
+Closing a given task without having written a single test for it? We don't do this. Right?
+We want to professionals!
+We want to be good developers!
+We want to be heros.
+[hero](https://images.unsplash.com/photo-1531907700752-62799b2a3e84?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80)
+
+
 
 # Motivation to testing
 Before we deep dive into the technical bits an pieces of testing your Angular application, we have to go through some
