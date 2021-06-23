@@ -16,7 +16,7 @@ They are meant to be used as an inspiration for writing the guide. *Notes* are
 notes abouts suggested topics.
 
 ## Editors
-Our editor is @LayZeeDK. Reach out to me if you need help with your content or
+Our editor is [Lars Gyrup Brink Nielsen](https://github.com/LayZeeDK). Reach out to me if you need help with your content or
 want to start contributing.
 
 ## Style guide
