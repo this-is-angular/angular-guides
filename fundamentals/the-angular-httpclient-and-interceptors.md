@@ -34,7 +34,7 @@ And immutability ensures that the interceptor chain can re-process the same requ
 You can use multiple interceptors but keep this in mind that Angular applies interceptors in the order that you provide them.
 If you provide interceptors A, then B, then C, requests will flow in A->B->C and responses will flow out C->B->A.
 
-![alt text](images/interceptors-flow.png 'Interceptors flow')
+![Interceptors flow](/images/interceptors-flow.png 'Interceptors flow')
 
 Another nice thing about interceptors is that they can process the request and response together.
 This gives the possibility to combine a feature on the whole event.
