@@ -1,19 +1,14 @@
-# Angular In Depth guides
-Welcome to the Angular In Depth guides for In Depth Education.
+# This is Angular guides
+Welcome to the Angular guides by the This is Angular community of public tech
+contributors.
 
-These guides will be published for free by In Depth Education once we have a
-Ghost-based website.
-
-## License
-By contributing to these guides, you agree to give ownership of the content to
-In Depth Education, a for-profit organization. See [LICENSE](./LICENSE) for the
-details. Your name will be mentioned in the guides you help author.
+These guides will be published for free by This is Angular.
 
 ## Content
 A lot of suggestions for guides, topics and resources have already been added
 to this repository. Currently, we would like to focus on getting [the Angular
 fundamentals guides](./fundamentals/index.md) done first. This will help us put
-our name out there as a source of quality guides for Angular development.
+our name out there as a source of good Angular content.
 
 *Suggested topics* are only that: **suggestions** from editors. *Suggested
 resources* are not necessarily meant to be added as links in the guide itself.
@@ -21,8 +16,8 @@ They are meant to be used as an inspiration for writing the guide. *Notes* are
 notes abouts suggested topics.
 
 ## Editors
-Our editors are Tim Descryver and Lars Gyrup Brink Nielsen. Reach out to us if
-you need help with your content or want to start contributing.
+Our editor is @LayZeeDK. Reach out to me if you need help with your content or
+want to start contributing.
 
 ## Style guide
 We don't yet have an official style guide. Use [freeCodeCamp's style guide](https://github.com/freeCodeCamp/freeCodeCamp/blob/master/docs/style-guide-for-guide-articles.md)
