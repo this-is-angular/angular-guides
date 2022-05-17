@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "preinstall": "corepack enable",
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
@@ -24,6 +25,15 @@
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "2.0.0-beta.20"
+  },
+  "engines": {
+    "node": "16.15.0",
+    "npm": "Use Yarn 3+ instead of npm",
+    "yarn": "Use Yarn 3+ instead of Yarn from npm"
+  },
+  "packageManager": "yarn@3.2.1",
+  "volta": {
+    "node": "16.15.0"
   },
   "browserslist": {
     "production": [
