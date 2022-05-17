@@ -57,7 +57,7 @@ const config = {
             items: [
               {
                 label: title,
-                to: "/docs/intro",
+                to: "/",
               },
               {
                 label: "NgRx Essentials",
@@ -122,8 +122,8 @@ const config = {
       navbar: {
         items: [
           {
-            docId: "intro",
-            label: "Guides",
+            docId: "/category/fundamentals",
+            label: "Fundamentals",
             position: "left",
             type: "doc",
           },

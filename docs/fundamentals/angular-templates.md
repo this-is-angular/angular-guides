@@ -1,6 +1,7 @@
 # Angular templates
 
 ## Suggested topics
+
 - Event binding (`()`)
 - Property binding (`[]`)
 - Two-way data binding (banana-in-a-box, `[()]`)
@@ -22,4 +23,5 @@
 - Safe navigation operator (`?`)
 
 ## Related topics
-- [Build dynamic and reusable components](./build-dynamic-and-reusable-components.md)
+
+- [Build dynamic and reusable components](./build-dynamic-and-reusable-components)
