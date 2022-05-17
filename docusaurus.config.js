@@ -147,6 +147,8 @@ const config = {
       url: `https://${organizationName}.github.io`,
     }),
   title,
+  // GitHub Pages adds a trailing slash to Docusaurus URLs by default.
+  trailingSlash: false,
   url: `https://${organizationName}.github.io`,
 };
 
