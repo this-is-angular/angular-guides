@@ -128,6 +128,12 @@ const config = {
             type: "doc",
           },
           {
+            docId: "/category/ui-and-ux-design",
+            label: "UI and UX design",
+            position: "left",
+            type: "doc",
+          },
+          {
             docId: "/category/workflow",
             label: "Workflow",
             position: "left",
