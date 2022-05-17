@@ -1,24 +1,15 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require("prism-react-renderer/themes/github");
-const darkCodeTheme = require("prism-react-renderer/themes/dracula");
+const shadesOfPurpleTheme = require("prism-react-renderer/themes/shadesOfPurple");
+
+const organizationName = "this-is-angular";
+const projectName = "angular-guides";
+const title = "This is Angular guides";
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
-
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
-
+  baseUrl: `/${projectName}/`,
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace 'en' with 'zh-Hans'.
@@ -26,25 +17,22 @@ const config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-
+  favicon: "img/favicon.ico",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  organizationName,
   presets: [
     [
       "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        docs: {
-          sidebarPath: require.resolve("./sidebars.js"),
-          // Please change this to your repo.
-          // Remove this to remove the 'edit this page' links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        },
         blog: {
+          editUrl: `https://github.com/${organizationName}/${projectName}/edit/main/blog`,
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the 'edit this page' links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+        },
+        docs: {
+          editUrl: `https://github.com/${organizationName}/${projectName}/edit/main`,
+          sidebarPath: require.resolve("./sidebars.js"),
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -52,40 +40,40 @@ const config = {
       }),
     ],
   ],
-
+  projectName,
+  tagline: "Open Learning Angular guides by This is Angular.",
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      navbar: {
-        title: "My Site",
-        logo: {
-          alt: "My Site Logo",
-          src: "img/logo.svg",
-        },
-        items: [
-          {
-            type: "doc",
-            docId: "intro",
-            position: "left",
-            label: "Tutorial",
-          },
-          { to: "/blog", label: "Blog", position: "left" },
-          {
-            href: "https://github.com/facebook/docusaurus",
-            label: "GitHub",
-            position: "right",
-          },
-        ],
+      colorMode: {
+        respectPrefersColorScheme: true,
       },
+      image: "img/docusaurus.png",
       footer: {
-        style: "dark",
+        copyright: "© This is Learning. Licensed under CC BY-SA 4.0.",
         links: [
           {
-            title: "Docs",
+            title: "Open Learning",
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: title,
+                to: "/docs/chapter-1",
+              },
+              {
+                label: "NgRx Essentials",
+                href: "https://this-is-angular.github.io/ngrx-essentials-course",
+              },
+              {
+                label: "RxJS Fundamentals",
+                href: "https://this-is-learning.github.io/rxjs-fundamentals-course",
+              },
+              {
+                label: "This is Learning on DEV Community",
+                href: "https://dev.to/this-is-learning",
+              },
+              {
+                label: "This is Angular on DEV Community",
+                href: "https://dev.to/this-is-angular",
               },
             ],
           },
@@ -93,40 +81,73 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "This is Learning Community on Discord",
+                href: "https://discord.gg/ygKzbrBtVn",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
+                label: "This is Learning on GitHub",
+                href: "https://github.com/this-is-learning",
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "This is Angular on GitHub",
+                href: "https://github.com/this-is-learning",
               },
             ],
           },
           {
-            title: "More",
+            title: "Social",
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: "Star on GitHub",
+                href: `https://github.com/${organizationName}/${projectName}`,
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "This is Learning on Twitter",
+                href: "https://twitter.com/Thisis_Learning",
+              },
+              {
+                label: "This is Angular on Twitter",
+                href: "https://twitter.com/Thisis_Angular",
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        logo: {
+          alt: title,
+          href: "https://thisislearning.dev",
+          src: "img/logo.png",
+        },
+        style: "dark",
+      },
+      navbar: {
+        items: [
+          {
+            docId: "intro",
+            label: "Guides",
+            position: "left",
+            type: "doc",
+          },
+          {
+            href: `https://github.com/${organizationName}/${projectName}`,
+            label: "GitHub",
+            position: "right",
+          },
+        ],
+        logo: {
+          alt: title,
+          src: "img/logo.png",
+        },
+        title,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        darkTheme: shadesOfPurpleTheme,
+        defaultLanguage: "typescript",
+        theme: shadesOfPurpleTheme,
       },
+      url: `https://${organizationName}.github.io`,
     }),
+  title,
+  url: `https://${organizationName}.github.io`,
 };
 
 module.exports = config;
