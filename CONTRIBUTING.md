@@ -4,9 +4,11 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 ### Installation
 
-```
-yarn
-```
+1. Use Volta or install the Node.js version specified in `package.json`.
+2. Run `npx corepack enable` to enable Yarn 3+.
+3. Run `yarn install` to install and link dependencies.
+
+> Note that dependencies are cached in the `.yarn/cache` directory which is pushed to the repository. This is intentional.
 
 ### Local Development
 
