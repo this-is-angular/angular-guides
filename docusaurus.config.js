@@ -128,6 +128,12 @@ const config = {
             type: "doc",
           },
           {
+            docId: "/category/workflow",
+            label: "Workflow",
+            position: "left",
+            type: "doc",
+          },
+          {
             href: `https://github.com/${organizationName}/${projectName}`,
             label: "GitHub",
             position: "right",
