@@ -57,7 +57,7 @@ const config = {
             items: [
               {
                 label: title,
-                to: "/docs/chapter-1",
+                to: "/docs/intro",
               },
               {
                 label: "NgRx Essentials",
