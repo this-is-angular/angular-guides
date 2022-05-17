@@ -134,6 +134,12 @@ const config = {
             type: "doc",
           },
           {
+            docId: "/category/testing",
+            label: "Testing",
+            position: "left",
+            type: "doc",
+          },
+          {
             docId: "/category/tooling",
             label: "Tooling",
             position: "left",
