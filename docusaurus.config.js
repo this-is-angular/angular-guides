@@ -128,8 +128,8 @@ const config = {
             type: "doc",
           },
           {
-            docId: "/category/ui-and-ux-design",
-            label: "UI and UX design",
+            docId: "/category/software-architecture",
+            label: "Software architecture",
             position: "left",
             type: "doc",
           },
@@ -148,6 +148,12 @@ const config = {
           {
             docId: "/category/tooling",
             label: "Tooling",
+            position: "left",
+            type: "doc",
+          },
+          {
+            docId: "/category/ui-and-ux-design",
+            label: "UI and UX design",
             position: "left",
             type: "doc",
           },
