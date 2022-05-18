@@ -122,12 +122,6 @@ const config = {
       navbar: {
         items: [
           {
-            docId: "/category/fundamentals",
-            label: "Fundamentals",
-            position: "left",
-            type: "doc",
-          },
-          {
             docId: "/category/decision-makers",
             label: "Decision makers",
             position: "left",
@@ -148,6 +142,12 @@ const config = {
           {
             docId: "/category/functional-programming",
             label: "Functional programming",
+            position: "left",
+            type: "doc",
+          },
+          {
+            docId: "/category/fundamentals",
+            label: "Fundamentals",
             position: "left",
             type: "doc",
           },
