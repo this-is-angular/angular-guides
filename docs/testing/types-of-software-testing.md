@@ -2,6 +2,8 @@
 contributors: Christian Janker
 ---
 
+# Types of software testing
+
 Have in mind. This is a first draft. That covers mainly thoughts that popped into my mind.
 Transcript from my talk about testing.
 
