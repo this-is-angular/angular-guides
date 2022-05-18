@@ -1,0 +1,70 @@
+name: Website Continuous Deployment
+
+on:
+  push:
+    branches:
+      - main
+  pull_request: {}
+
+concurrency:
+  # Group concurrency on workflow, then:
+  # - Is merge run? Group `push` events
+  # - Is pull request? Group `pull_request` events
+  group:
+    ${{ github.workflow }}-${{ github.event_name == 'push' && github.base_ref ||
+    github.head_ref }}
+  # Run merge runs in sequence. Cancel in progress pull request runs.
+  cancel-in-progress: ${{ github.event_name != 'push' }}
+
+env:
+  NODE_OPTIONS: --max-old-space-size=6144
+  WEBSITE_PACKAGE_NAME: website
+  WEBSITE_PACKAGE_PATH: ./build
+
+jobs:
+  build:
+    name: Build website
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          # cache: yarn
+          node-version-file: .nvmrc
+      - name: Install package dependencies
+        run: yarn install --immutable
+
+      - name: Build website
+        run: yarn build
+
+      - name: Upload website package
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ env.WEBSITE_PACKAGE_NAME }}
+          path: ${{ env.WEBSITE_PACKAGE_PATH }}
+          if-no-files-found: error
+
+  deploy:
+    name: Deploy website to GitHub Pages
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs:
+      - build
+    runs-on: ubuntu-latest
+
+    steps:
+      # Necessary for JamesIves/github-pages-deploy-action
+      - uses: actions/checkout@v3
+
+      - name: Download website package
+        uses: actions/download-artifact@v3
+        with:
+          name: ${{ env.WEBSITE_PACKAGE_NAME }}
+          path: ${{ env.WEBSITE_PACKAGE_PATH }}
+
+      - name: Deploy app to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ${{ env.WEBSITE_PACKAGE_PATH }}

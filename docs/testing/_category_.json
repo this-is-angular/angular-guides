@@ -1,0 +1,7 @@
+{
+  "label": "Testing",
+  "link": {
+    "type": "generated-index",
+    "description": "Learn about automated testing of Angular applications."
+  }
+}

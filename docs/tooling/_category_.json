@@ -1,0 +1,7 @@
+{
+  "label": "Tooling",
+  "link": {
+    "type": "generated-index",
+    "description": "Learn about tooling and common workflows often used in Angular workspaces."
+  }
+}
