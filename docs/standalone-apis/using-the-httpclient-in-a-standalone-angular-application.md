@@ -30,7 +30,7 @@ In a future Angular version, a function creating the necessary providers will be
 
 ```typescript
 import { withHttpClient } from "@angular/common/http";
-import { enableProdMode, importProvidersFrom } from "@angular/core";
+import { enableProdMode } from "@angular/core";
 import { bootstrapApplication } from "@angular/platform-browser";
 
 import { AppComponent } from "./app/app.component";

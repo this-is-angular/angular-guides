@@ -26,7 +26,7 @@ bootstrapApplication(AppComponent, {
 In a future Angular version, a function creating the necessary providers will be available. It might look something like this:
 
 ```typescript
-import { enableProdMode, importProvidersFrom } from "@angular/core";
+import { enableProdMode } from "@angular/core";
 import { bootstrapApplication } from "@angular/platform-browser";
 import { withAnimations } from "@angular/platform-browser/animations";
 
