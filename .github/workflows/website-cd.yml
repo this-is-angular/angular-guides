@@ -34,7 +34,7 @@ jobs:
           # cache: yarn
           node-version-file: .nvmrc
       - name: Install package dependencies
-        run: yarn install --immutable --non-interactive
+        run: yarn install --immutable
 
       - name: Build website
         run: yarn build
