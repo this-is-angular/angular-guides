@@ -128,6 +128,12 @@ const config = {
             type: "doc",
           },
           {
+            docId: "/category/decision-makers",
+            label: "Decision makers",
+            position: "left",
+            type: "doc",
+          },
+          {
             docId: "/category/design-patterns",
             label: "Design patterns",
             position: "left",
