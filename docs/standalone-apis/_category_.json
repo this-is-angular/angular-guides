@@ -1,0 +1,7 @@
+{
+  "label": "Standalone APIs",
+  "link": {
+    "type": "generated-index",
+    "description": "Guides for using Angular's Standalone APIs, including Standalone Components."
+  }
+}
