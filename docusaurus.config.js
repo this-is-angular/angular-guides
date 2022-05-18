@@ -163,6 +163,12 @@ const config = {
           //   position: "left",
           //   type: "doc",
           // },
+          {
+            docId: "/category/standalone-apis",
+            label: "Standalone APIs",
+            position: "left",
+            type: "doc",
+          },
           // {
           //   docId: "/category/state-management",
           //   label: "State management",
