@@ -128,6 +128,12 @@ const config = {
             type: "doc",
           },
           {
+            docId: "/category/performance",
+            label: "Performance",
+            position: "left",
+            type: "doc",
+          },
+          {
             docId: "/category/software-architecture",
             label: "Software architecture",
             position: "left",
