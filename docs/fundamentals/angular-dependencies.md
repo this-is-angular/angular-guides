@@ -23,4 +23,4 @@ contributors: Adrian Fâciu
 ## Related topics
 
 - [Class-based Angular services](./class-based-angular-services)
-- [How does change detection work in Angular projects](./how-does-change-detection-work-in-angular-projects)
+- [How change detection works in Angular projects](./how-change-detection-works-in-angular-projects)

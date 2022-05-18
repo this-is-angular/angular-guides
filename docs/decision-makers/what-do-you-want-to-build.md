@@ -5,7 +5,7 @@
 - [Build dynamic and reusable components](../fundamentals/build-dynamic-and-reusable-components)
 - [Build an Angular library using Angular CLI and ng-packagr](../tooling/build-an-angular-library-using-the-angular-cli-and-ng-packagr)
 - [Build an Angular project that supports experimental Ivy APIs](../fundamentals/build-an-angular-project-that-supports-experimental-ivy-apis)
-- [Build a design system using the Angular CDK](../libraries-and-frameworks/angular-cdk/build-a-design-system-using-the-angular-cdk)
+- [Build a design system using the Angular CDK](../frameworks-and-libraries/angular-cdk/build-a-design-system-using-the-angular-cdk)
 
 ## Web component library
 

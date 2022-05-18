@@ -103,12 +103,12 @@ parallels to be drawn.
 ## Suggested topics
 
 - Mutation testing
-  - [Stryker](../libraries-and-frameworks/stryker)
+  - [Stryker](../frameworks-and-libraries/stryker)
 - End-to-end testing
 - Unit testing
 - Integration testing
 - Contract testing
-  - [JSCheck](../libraries-and-frameworks/jscheck)
+  - [JSCheck](../frameworks-and-libraries/jscheck)
 
 ## Notes
 
