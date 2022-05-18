@@ -48,7 +48,7 @@ jobs:
 
   deploy:
     name: Deploy website to GitHub Pages
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    # if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     needs:
       - build
     runs-on: ubuntu-latest
