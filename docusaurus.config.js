@@ -128,6 +128,12 @@ const config = {
             type: "doc",
           },
           {
+            docId: "/category/design-patterns",
+            label: "Design patterns",
+            position: "left",
+            type: "doc",
+          },
+          {
             docId: "/category/frameworks-and-libraries",
             label: "Frameworks and libraries",
             position: "left",
