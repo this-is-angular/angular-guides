@@ -128,6 +128,12 @@ const config = {
             type: "doc",
           },
           {
+            docId: "/category/functional-programming",
+            label: "Functional programming",
+            position: "left",
+            type: "doc",
+          },
+          {
             docId: "/category/performance",
             label: "Performance",
             position: "left",
