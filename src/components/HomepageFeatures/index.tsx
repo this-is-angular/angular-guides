@@ -30,7 +30,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
     description: (
       <>
-        <strong>You</strong> are more than welcome to improve this course.
+        <strong>You</strong> are more than welcome to improve these guides.
         Together we can.
       </>
     ),
