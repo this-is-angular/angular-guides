@@ -101,6 +101,8 @@ import { CommonModule } from "@angular/common";
 import { Component } from "@angular/core";
 import { ourTableImports } from "@our-org/our-lib";
 
+import { DataGridService } from "./data-grid.service";
+
 @Component({
   imports: [CommonModule, ourTableImports],
   standalone: true
@@ -130,6 +132,8 @@ Legacy components depending add the exported components to their NgModule's `imp
 import { CommonModule } from "@angular/common";
 import { Component, NgModule } from "@angular/core";
 import { ourTableImports } from "@our-org/our-lib";
+
+import { DataGridService } from "./data-grid.service";
 
 @Component({
   imports: [CommonModule, ourTableImports],
