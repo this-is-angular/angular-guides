@@ -4633,6 +4633,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"docusaurus-plugin-goatcounter@npm:^1.0.2":
+  version: 1.0.2
+  resolution: "docusaurus-plugin-goatcounter@npm:1.0.2"
+  checksum: 5477b2f353e9eab2e23f793d9b607fd1f48332240fdb904f7098b925cc58a9a522c5b8fb6d524dc3089f0db3bee7dd35d0eac5de3a3e10720a8c079b7b653a83
+  languageName: node
+  linkType: hard
+
 "dom-converter@npm:^0.2.0":
   version: 0.2.0
   resolution: "dom-converter@npm:0.2.0"
@@ -9959,6 +9966,7 @@ __metadata:
     "@mdx-js/react": ^1.6.22
     "@tsconfig/docusaurus": ^1.0.5
     clsx: ^1.1.1
+    docusaurus-plugin-goatcounter: ^1.0.2
     prism-react-renderer: ^1.3.1
     react: ^17.0.2
     react-dom: ^17.0.2

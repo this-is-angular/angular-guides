@@ -21,6 +21,7 @@ const config = {
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   organizationName,
+  plugins: ["docusaurus-plugin-goatcounter"],
   presets: [
     [
       "classic",
@@ -118,6 +119,9 @@ const config = {
           src: "img/logo.png",
         },
         style: "dark",
+      },
+      goatcounter: {
+        code: "this-is-angular-guides",
       },
       navbar: {
         items: [
