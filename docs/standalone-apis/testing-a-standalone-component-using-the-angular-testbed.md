@@ -63,7 +63,7 @@ describe(DailyForecastComponent.name, () => {
     hostFixture.detectChanges();
 
     const temperatureFahrenheit = fixture.debugElement.query(By.css("[data-testid=temperature-fahrenheit]"));
-    expect(temperatureFahrenheit.nativeElement.textContent).toBe("68°");
+    expect(temperatureFahrenheit.nativeElement.textContent).toBe("68 °F");
   });
 });
 ```
