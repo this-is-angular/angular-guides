@@ -29,7 +29,7 @@ No need to call `TestBed.configureTestingModule` before creating a component fix
 
 ## Creating a test host component for a standalone component
 
-To interact with a standalone component throuhg its component API, we add it to the Angular testing modules `imports` array:
+To interact with a standalone component through its component API, we add it to the Angular testing module's `imports` array:
 
 ```ts
 import { Component } from "@angular/core";
@@ -63,7 +63,7 @@ describe(DailyForecastComponent.name, () => {
     hostFixture.detectChanges();
 
     const temperatureFahrenheit = fixture.debugElement.query(By.css("[data-testid=temperature-fahrenheit]"));
-    expect(temperatureFahrenheit.nativeElement.textContent).toBe("68°");
+    expect(temperatureFahrenheit.nativeElement.textContent).toBe("68 °F");
   });
 });
 ```
