@@ -33,6 +33,8 @@ const config = {
         },
         docs: {
           editUrl: `https://github.com/${organizationName}/${projectName}/edit/main`,
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
           sidebarPath: require.resolve("./sidebars.js"),
         },
         theme: {
