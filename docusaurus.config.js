@@ -49,7 +49,7 @@ const config = {
       colorMode: {
         respectPrefersColorScheme: true,
       },
-      image: "img/docusaurus.png",
+      image: "img/logo.png",
       footer: {
         copyright:
           '© This is Learning. Licensed under CC BY-SA 4.0. Privacy-compliant public analytics at <a href="https://this-is-angular-guides.goatcounter.com/" target="_blank" rel="nofollow noopener">GoatCounter</a>.',
