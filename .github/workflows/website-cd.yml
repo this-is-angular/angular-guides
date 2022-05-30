@@ -23,7 +23,7 @@ env:
 
 jobs:
   build:
-    name: Build website
+    name: Build and verify website
     runs-on: ubuntu-latest
 
     steps:
