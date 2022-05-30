@@ -39,6 +39,9 @@ jobs:
       - name: Build website
         run: yarn build
 
+      - name: Scan for broken links
+        run: yarn dlx start-server-and-test serve 3000 'yarn broken-link-checker | (! grep ─BROKEN─)'
+
       - name: Upload website package
         uses: actions/upload-artifact@v3
         with:
@@ -63,7 +66,7 @@ jobs:
           name: ${{ env.WEBSITE_PACKAGE_NAME }}
           path: ${{ env.WEBSITE_PACKAGE_PATH }}
 
-      - name: Deploy app to GitHub Pages
+      - name: Deploy website to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
