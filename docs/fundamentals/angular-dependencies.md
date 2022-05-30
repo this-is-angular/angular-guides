@@ -6,9 +6,9 @@ contributors: Adrian Fâciu
 
 ## Suggested resources
 
-- [Tree-shakable Dependencies in Angular Projects](https://blog.angularindepth.com/tree-shakable-dependencies-in-angular-projects-5aaa7012b9e7)
-- [Faking Dependencies in Angular Applications](https://blog.angularindepth.com/faking-dependencies-in-angular-applications-3fc501d70c2e)
-- [Testing and Faking Angular Dependencies](https://blog.angularindepth.com/testing-and-faking-angular-dependencies-886495057121)
+- [Tree-shakable Dependencies in Angular Projects](https://dev.to/this-is-angular/tree-shakable-dependencies-in-angular-projects-1ifg)
+- [Faking Dependencies in Angular Applications](https://dev.to/this-is-angular/faking-dependencies-in-angular-applications-4d2f)
+- [Testing and Faking Angular Dependencies](https://dev.to/this-is-angular/testing-and-faking-angular-dependencies-p9i)
 
 ## Suggested topics
 

@@ -1,5 +1,6 @@
 # Spectator
 
 ## Suggested resources
-- [Official documentation](https://netbasal.gitbook.io/spectator/)
-- [GitHub repository](https://github.com/NetanelBasal/spectator)
+
+- [Official documentation](https://ngneat.github.io/spectator/)
+- [GitHub repository](https://github.com/ngneat/spectator)
