@@ -293,7 +293,7 @@ application for commercial purpose.
 
 ### Migration testing
 
-- http://www.softwaretestinghelp.com/migration-testing-types/
+- https://www.softwaretestinghelp.com/migration-testing-types/
   Migration Testing is a verification process of migration of the legacy system to
   the new system with minimal disruption/downtime, with data integrity and no loss
   of data, while ensuring that all the specified functional and non-functional

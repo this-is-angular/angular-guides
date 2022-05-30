@@ -6,8 +6,8 @@ contributors: Michael Karén
 
 ## Suggested resources
 
-- [Insider’s guide into interceptors and HttpClient mechanics in Angular](https://blog.angularindepth.com/insiders-guide-into-interceptors-and-httpclient-mechanics-in-angular-103fbdb397bf)
-- [Top 10 ways to use Interceptors in Angular](https://blog.angularindepth.com/top-10-ways-to-use-interceptors-in-angular-db450f8a62d6)
+- [Insider’s guide into interceptors and HttpClient mechanics in Angular](https://indepth.dev/posts/1118/insiders-guide-into-interceptors-and-httpclient-mechanics-in-angular)
+- [Top 10 ways to use Interceptors in Angular](https://indepth.dev/posts/1051/top-10-ways-to-use-interceptors-in-angular)
 
 ## `HttpClient`
 

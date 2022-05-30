@@ -1,5 +1,7 @@
 # Akita
 
 ## Suggested resources
-- [Official documentation](https://netbasal.gitbook.io/akita/)
-- [Articles](https://netbasal.gitbook.io/akita/general/blog-posts)
+
+- [Official documentation](https://opensource.salesforce.com/akita/)
+- [Articles by Netanel Basal](https://netbasal.com/search?q=akita)
+- [Articles on DEV Community](https://dev.to/t/akita)

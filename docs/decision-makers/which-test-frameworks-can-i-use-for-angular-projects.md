@@ -18,7 +18,6 @@ What are my options?
 - [Puppeteer](../frameworks-and-libraries/puppeteer)
 - [Protractor](../frameworks-and-libraries/protractor)
 - [QUnit](../frameworks-and-libraries/qunit)
-- [SlimerJS](../frameworks-and-libraries/slimerjs)
 - [Storybook](../frameworks-and-libraries/storybook)
 - [Tape](../frameworks-and-libraries/tape)
 - [TestCafe](../frameworks-and-libraries/testcafe)
