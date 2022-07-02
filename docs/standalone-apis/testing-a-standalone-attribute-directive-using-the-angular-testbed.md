@@ -68,7 +68,7 @@ describe(PrimerButtonDirective.name, () => {
   @Component({
     imports: [PrimerButtonDirective],
     standalone: true,
-    template: ` <button primerButton [size]="size" [variant]="variant">Button</button> `,
+    template: `<button primerButton [size]="size" [variant]="variant">Button</button>`,
   })
   class TestHostComponent {
     @Input()
