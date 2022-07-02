@@ -56,7 +56,7 @@ export class PrimerButtonDirective {
 
 To interact with a standalone component through its component API, we add it to the test host component's `imports` array:
 
-```typescript {13}
+```typescript {10}
 // primer-button.directive.spec.ts
 import { Component, Input } from "@angular/core";
 import { ComponentFixture, TestBed } from "@angular/core/testing";
