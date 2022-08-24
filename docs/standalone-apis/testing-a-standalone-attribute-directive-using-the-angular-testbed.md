@@ -4,8 +4,7 @@ For the purpose of this example, we will create a standalone attribute directive
 that adds the CSS classes provided by [Primer](https://primer.style/) for its
 [Button](https://primer.style/css/components/buttons) component:
 
-```typescript
-// primer-button.directive.ts
+```typescript {12} title="primer-button.directive.ts"
 import { Directive, HostBinding, Input } from "@angular/core";
 
 export type PrimerButtonVariant = "default" | "primary" | "danger" | "outline" | "invisible";
@@ -56,8 +55,7 @@ export class PrimerButtonDirective {
 
 To interact with a standalone component through its component API, we add it to the test host component's `imports` array:
 
-```typescript {10}
-// primer-button.directive.spec.ts
+```typescript {5,9,11} title="primer-button.directive.spec.ts"
 import { Component, Input } from "@angular/core";
 import { ComponentFixture, TestBed } from "@angular/core/testing";
 import { By } from "@angular/platform-browser";
@@ -95,8 +93,7 @@ describe(PrimerButtonDirective.name, () => {
 We use the bound properties of our test host component to exercise our attribute
 directive's input properties:
 
-```typescript
-// primer-button.directive.spec.ts
+```typescript {9-10,16-17} title="primer-button.directive.spec.ts"
 describe(PrimerButtonDirective.name, () => {
   // (...)
 
