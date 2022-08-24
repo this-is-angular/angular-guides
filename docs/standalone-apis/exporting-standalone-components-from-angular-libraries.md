@@ -4,14 +4,14 @@
 
 Libraries export standalone components, directives, and pipes directly from their public API, usually an `index.ts` or `public_api.ts` file:
 
-```ts
+```ts title="libs/our-lib/src/index.ts"
 export * from "./lib/our-button.component";
 export * from "./lib/our-checkbox.component";
 ```
 
 Standalone components consuming the library import the components through their `imports` array:
 
-```ts
+```ts {2,7} title="rocket.component.ts"
 import { Component } from "@angular/core";
 import { OurButtonComponent } from "@our-org/our-lib";
 
@@ -37,9 +37,9 @@ export class RocketComponent {
 
 ### Interoperability with NgModules
 
-Legacy components depending add the standalone component to their NgModule's `imports` array:
+Classic components add standalone components they depend on to their declaring NgModule's `imports` array:
 
-```ts
+```ts {2,24} title="rocket.component.ts"
 import { Component, NgModule } from "@angular/core";
 import { OurButtonComponent } from "@our-org/our-lib";
 
@@ -70,14 +70,12 @@ export class RocketModule {}
 
 ## Exporting cohesive standalone components from Angular libraries
 
-In case multiple components, directive, and pipes are always used together, we export them in an array from our library's public API:
+In case multiple components, directive, and pipes are always used together, we export them in an immutable array from our library's public API:
 
-```ts
+```ts {12-16} title="libs/our-lib/src/index.ts"
 import { OurTableCellComponent } from "./lib/table/our-table-cell.component";
 import { OurTableRowComponent } from "./lib/table/our-table-row.component";
 import { OurTableComponent } from "./lib/table/our-table.component";
-
-import type { Type } from "@angular/core";
 
 // (Optionally) export the individual types for selective importing and
 // referencing instances for queries and similar purposes
@@ -86,26 +84,25 @@ export OurTableRowComponent;
 export OurTableComponent;
 
 // Export cohesive standalone declarables for easy importing
-export type OurTableType = OurTableCellComponent | OurTableRowComponent | OurTableComponent;
-export const ourTableImports: Type<OurTableType>[] = [
+export const ourTableDeclarables = [
   OurTableCellComponent,
   OurTableRowComponent,
   OurTableComponent,
-];
+] as const;
 ```
 
 Standalone components consuming the library import the components through their `imports` array:
 
-```ts
-import { CommonModule } from "@angular/common";
+```ts {3,8} title="data-grid.component.ts (standalone)"
+import { AsyncPipe } from "@angular/common";
 import { Component } from "@angular/core";
-import { ourTableImports } from "@our-org/our-lib";
+import { ourTableDeclarables } from "@our-org/our-lib";
 
 import { DataGridService } from "./data-grid.service";
 
 @Component({
-  imports: [CommonModule, ourTableImports],
-  standalone: true
+  imports: [AsyncPipe, ourTableDeclarables],
+  standalone: true,
   template: `
     <our-table>
       <our-table-row *ngFor="let row of rows$ | async">
@@ -126,18 +123,17 @@ export class DataGridComponent {
 
 ### Interoperability with NgModules
 
-Legacy components depending add the exported components to their NgModule's `imports` array:
+Classic components depending add the exported standalone declarables to their NgModule's `imports` array:
 
-```ts
-import { CommonModule } from "@angular/common";
+```ts {3,29} title="data-grid.component.ts (classic)"
+import { AsyncPipe } from "@angular/common";
 import { Component, NgModule } from "@angular/core";
-import { ourTableImports } from "@our-org/our-lib";
+import { ourTableDeclarables } from "@our-org/our-lib";
 
 import { DataGridService } from "./data-grid.service";
 
 @Component({
-  imports: [CommonModule, ourTableImports],
-  standalone: true
+  standalone: false,
   template: `
     <our-table>
       <our-table-row *ngFor="let row of rows$ | async">
@@ -158,7 +154,7 @@ export class DataGridComponent {
 @NgModule({
   declarations: [DataGridComponent],
   exports: [DataGridComponent],
-  imports: [CommonModule, ourTableImports]
+  imports: [AsyncPipe, ourTableDeclarables]
 })
 export class DataGridModule {}
 ```
