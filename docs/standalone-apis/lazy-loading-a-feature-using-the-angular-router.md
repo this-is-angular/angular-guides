@@ -4,7 +4,7 @@
 
 To lazy load an Angular feature, resolve a `Routes` array from the dynamic `import` statement returned by a `loadChildren` callback:
 
-```typescript
+```typescript {22} title="app.routes.ts"
 import { Routes } from "@angular/router";
 
 import { AboutComponent } from "./app/about.component";
@@ -35,7 +35,7 @@ export const routes: Routes = [
 
 Our Angular feature exports a `Routes` array to enable lazy loading using the Angular Router.
 
-```typescript
+```typescript {1,6-16} title="category.routes.ts"
 import { Routes } from "@angular/router";
 
 import { CategoryComponent } from "./category.component";
@@ -58,7 +58,7 @@ export const routes: Routes = [
 
 Let's say that we wanted to eagerly load the default component of our feature, in this case the `CategoryListComponent`. Our routes configuration is the same as in the previous section. Now let's say that we wanted to lazy load the `CategoryComponent` used to display individual categories. We do this by adding a `loadComponent` callback to the component route:
 
-```typescript
+```typescript {13} title="category.routes.ts"
 import { Routes } from "@angular/router";
 
 import { CategoryListComponent } from "./category-list.component";

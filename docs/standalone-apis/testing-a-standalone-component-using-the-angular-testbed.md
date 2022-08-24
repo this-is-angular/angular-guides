@@ -4,7 +4,7 @@
 
 To write a basic component test for a standalone component, pass the component class to `TestBed.createComponent`:
 
-```ts
+```ts {4,8,12} title="category-list.component.spec.ts"
 import { TestBed } from "@angular/core/testing";
 import { By } from "@angular/platform-browser";
 
@@ -31,7 +31,7 @@ No need to call `TestBed.configureTestingModule` before creating a component fix
 
 To interact with a standalone component through its component API, we add it to the test host component's `imports` array:
 
-```ts
+```ts {5,9,11} title="daily-forecast.component.spec.ts"
 import { Component } from "@angular/core";
 import { TestBed } from "@angular/core/testing";
 import { By } from "@angular/platform-browser";
@@ -68,9 +68,9 @@ describe(DailyForecastComponent.name, () => {
 
 ## Stubbing a child component in a standalone component test
 
-To stub child components, use the `TestBed.overrideComponent` function:
+To stub child components, use the `TestBed.overrideComponent` function. For example, in the following example, we replace `CategoryListItemComponent` with `TestCategoryListItemComponent` which share the component selector `app-category-list-item`:
 
-```ts
+```ts {2,6,9-14,17-24} title="category-list.component.spec.ts"
 import { Component } from "@angular/core";
 import { TestBed } from "@angular/core/testing";
 import { By } from "@angular/platform-browser";
@@ -114,9 +114,9 @@ This technique is also used to replace directives and pipes used in a standalone
 
 ## Stubbing a component-level dependency in a standalone component test
 
-While not a technique that only applies to standalone components, the way to replace a component-level provider in a component test is to use the `TestBed.overrideComponent` function, passing `add` and `remove` instructions for `providers` or `viewProviders`:
+While not a technique that only applies to standalone components, the way to replace a component-level provider in a component test is to use the `TestBed.overrideComponent` function, passing `add` and `remove` instructions for `providers` or `viewProviders`. For example, in the following example, we replace the `CategoryState` component-level service with the `CategoryStateStub` service:
 
-```ts
+```ts {2,7,10-17,20-32} title="category.component.spec.ts"
 import { Injectable } from "@angular/core";
 import { TestBed } from "@angular/core/testing";
 import { By } from "@angular/platform-browser";
@@ -161,5 +161,3 @@ describe(CategoryComponent.name, () => {
   });
 });
 ```
-
-In this example, the `CategoryState` service is replaced with the `CategoryStateStub` service for the purpose of this test suite.

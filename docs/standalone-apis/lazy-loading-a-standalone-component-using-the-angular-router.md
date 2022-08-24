@@ -2,7 +2,7 @@
 
 Add a `loadComponent` property to a `Route` object to lazy load a component. The value is a function that returns a dynamic `import` statement that points to an ES module (a `.ts` file), then resolves to the component class:
 
-```typescript
+```typescript {17} title="app.routes.ts"
 import { Routes } from "@angular/router";
 
 import { HomeComponent } from "./app/home.component";

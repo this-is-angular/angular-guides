@@ -6,9 +6,7 @@ A standalone Angular application bootstraps a component often called the `AppCom
 
 The following code block lists a simple `main.ts` file:
 
-<!-- TODO(LayZeeDK): support code highlighting -->
-
-```typescript
+```typescript {2,11} title="main.ts"
 import { enableProdMode } from "@angular/core";
 import { bootstrapApplication } from "@angular/platform-browser";
 
@@ -26,11 +24,12 @@ bootstrapApplication(AppComponent).catch((err) => console.error(err));
 
 To add a root-level provider, we can add it to the `providers` array:
 
-```typescript
+```typescript {5,13} title="main.ts"
 import { enableProdMode } from "@angular/core";
 import { bootstrapApplication } from "@angular/platform-browser";
 
 import { AppComponent } from "./app/app.component";
+import { AuthService } from "./app/auth.service";
 import { environment } from "./environments/environment";
 
 if (environment.production) {
@@ -46,9 +45,9 @@ bootstrapApplication(AppComponent, {
 
 To provide root-level providers using an NgModule, we pass the NgModule to the `importProvidersFrom` function.
 
-For example, we can provide the `HttpClient`'s dependencies as shown in the following listing:
+For example, we can provide the `HttpClient` and its dependencies as shown in the following listing:
 
-```typescript
+```typescript {1,2,13} title="main.ts"
 import { HttpClientModule } from "@angular/common/http";
 import { enableProdMode, importProvidersFrom } from "@angular/core";
 import { bootstrapApplication } from "@angular/platform-browser";
