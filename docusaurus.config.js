@@ -92,7 +92,7 @@ const config = {
               },
               {
                 label: "This is Angular on GitHub",
-                href: "https://github.com/this-is-learning",
+                href: "https://github.com/this-is-angular",
               },
             ],
           },
