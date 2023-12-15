@@ -12,4 +12,5 @@ You need application state management? Here are your options:
 - [RxJS](../frameworks-and-libraries/rxjs)
   - The [`multiScan` operator](../frameworks-and-libraries/rxjs-multi-scan)
     for RxJS
+- [StateAdapt](../frameworks-and-libraries/state-adapt)
 - [XState](../frameworks-and-libraries/xstate)
