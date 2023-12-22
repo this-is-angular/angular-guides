@@ -14,7 +14,7 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "typecheck": "tsc",
-    "broken-link-checker": "blc http://localhost:3000/angular-guides/ --recursive --ordered --exclude https://twitter.com/Thisis_Angular --exclude https://twitter.com/Thisis_Learning --exclude 'https://github.com/this-is-angular/angular-guides/edit/main/*' --exclude 'https://ngrx.io/*' --exclude 'https://angularplayground.it/*' --exclude 'https://docs.devexpress.com/*' --exclude 'https://www.softwaretestinghelp.com/*' --exclude 'https://youtu.be/*' --exclude 'https://youtube.com/*'"
+    "broken-link-checker": "blc http://localhost:3000/angular-guides/ --recursive --ordered --exclude https://twitter.com/Thisis_Angular --exclude https://twitter.com/Thisis_Learning --exclude https://twitter.com/Michael_Hladky/status/1136327245050630144 --exclude 'https://github.com/this-is-angular/angular-guides/edit/main/*' --exclude 'https://ngrx.io/*' --exclude 'https://angularplayground.it/*' --exclude 'https://docs.devexpress.com/*' --exclude 'https://www.softwaretestinghelp.com/*' --exclude 'https://youtu.be/*' --exclude 'https://youtube.com/*'"
   },
   "dependencies": {
     "@algolia/client-search": "^4.13.0",
