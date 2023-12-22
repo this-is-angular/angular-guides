@@ -2,7 +2,7 @@
 
 For the purpose of this example, we will create a standalone attribute directive
 that adds the CSS classes provided by [Primer](https://primer.style/) for its
-[Button](https://primer.style/css/components/buttons) component:
+[Button](https://primer.style/components/button/css) component:
 
 ```typescript {12} title="primer-button.directive.ts"
 import { Directive, HostBinding, Input } from "@angular/core";
