@@ -14,7 +14,7 @@ contributors: Jia Li
 - Differs
 - Change detection strategies
   - Default change detection (relies on Zone.js)
-  - On push change detection (skip dirty checkong unless input property
+  - On push change detection (skip dirty checking unless input property
     references change)
 - Manual change detection
   - `ngDoCheck` vs. `ngOnChanges`
